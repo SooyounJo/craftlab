@@ -159,7 +159,7 @@ export default function Frame({ lang, onLang }) {
         </div>
 
         <div className={styles.heroVisual}>
-          <img src="/images/hero-bg-5.png" alt="" />
+          <img src="/images/hero-photo.jpg" alt="" />
           <div className={styles.heroGrad} />
         </div>
 
