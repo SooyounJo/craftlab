@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.description {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #525252;
+}

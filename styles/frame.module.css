@@ -1,0 +1,1055 @@
+.page {
+  width: 1440px;
+  background: #1b1c1e;
+  color: #f5f5f2;
+}
+
+.hero {
+  position: relative;
+  width: 1440px;
+  height: 1999.889px;
+  overflow: hidden;
+}
+
+.heroFloor {
+  position: absolute;
+  left: 0;
+  top: 1150px;
+  width: 1440.561px;
+  height: 1161px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroFloorInner {
+  width: 1161px;
+  height: 1440.561px;
+  transform: rotate(90deg);
+  position: relative;
+}
+
+.heroFloorImg {
+  position: absolute;
+  height: 101.59%;
+  width: 229.5%;
+  left: -64.75%;
+  top: -0.79%;
+  max-width: none;
+}
+
+.heroFloorWash {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.2) 14.341%,
+      rgba(102, 102, 102, 0.2) 41.214%
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.heroVisual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1421px;
+  background: #0d0d0d;
+  -webkit-mask-image: url('/images/hero-mask.svg');
+  mask-image: url('/images/hero-mask.svg');
+  -webkit-mask-size: 1440px 1421px;
+  mask-size: 1440px 1421px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.heroVisual img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: auto;
+  aspect-ratio: 1024 / 794;
+  max-width: none;
+  object-fit: contain;
+  object-position: center top;
+}
+
+.heroGrad {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0) 18%,
+    rgba(0, 0, 0, 0) 72%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+}
+
+.heroDim {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.nav {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1344px;
+  height: 44px;
+  overflow: hidden;
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  gap: 40px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #f5f5f2;
+  white-space: nowrap;
+}
+
+.navRight {
+  justify-content: flex-end;
+  width: 189px;
+}
+
+.navRight button {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #f5f5f2;
+  opacity: 0.4;
+}
+
+.navRight button.active,
+.navRight button:hover {
+  opacity: 1;
+}
+
+.navLeft a {
+  display: flex;
+  flex-direction: column;
+}
+
+.eyebrow {
+  position: absolute;
+  left: 80px;
+  top: 868px;
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -2.56px;
+  text-transform: uppercase;
+  color: #f5f5f2;
+  opacity: 0.75;
+  white-space: nowrap;
+}
+
+.title {
+  position: absolute;
+  left: 67px;
+  top: 1000px;
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: 259.485px;
+  font-weight: 400;
+  line-height: 259.485px;
+  color: #fff;
+  opacity: 0.92;
+  white-space: nowrap;
+}
+
+.about {
+  position: absolute;
+  left: 0;
+  bottom: 308px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  width: 1440px;
+  padding: 10px 80px;
+}
+
+.aboutRule {
+  height: 0.889px;
+  background: #c2c2c2;
+}
+
+.aboutRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.aboutLead,
+.aboutBody {
+  margin: 0;
+  width: 880px;
+  font-size: 35.556px;
+  line-height: 40.222px;
+  color: #eeeeec;
+}
+
+.aboutBody {
+  margin-top: 40.222px;
+  color: #969799;
+}
+
+.aboutLabel {
+  margin: 0;
+  width: 150px;
+  font-size: 11.556px;
+  line-height: 17px;
+  text-align: right;
+  color: #969799;
+}
+
+.research {
+  width: 1440px;
+  padding: 0 32px 0 27.556px;
+  background: #1b1c1e;
+}
+
+.researchIntro {
+  display: flex;
+  width: 1380.444px;
+  padding: 80px 0 80px 65.778px;
+}
+
+.researchIntro h2 {
+  margin: 0 -312px 0 0;
+  width: 774.222px;
+  font-size: 42.667px;
+  font-weight: 400;
+  line-height: 44.444px;
+  color: #eeeeec;
+}
+
+.researchIntro h2 span {
+  color: #969799;
+}
+
+.researchIntro p {
+  margin: 0;
+  width: 774.222px;
+  font-size: 14.222px;
+  line-height: 19.556px;
+  color: #eeeeec;
+}
+
+.researchRule {
+  width: 1380.444px;
+  padding: 26.667px 0 0 65.778px;
+}
+
+.researchRule i,
+.researchRuleBottom i {
+  display: block;
+  width: 1242.667px;
+  height: 0.889px;
+  background: #444547;
+}
+
+.researchRuleBottom {
+  width: 1380.444px;
+  padding: 0 0 0 65.778px;
+  height: 30.222px;
+}
+
+.axisList {
+  width: 1380.444px;
+}
+
+.axisWrap {
+  cursor: pointer;
+}
+
+.axis {
+  display: flex;
+  gap: 408.889px;
+  align-items: flex-start;
+  width: 1380.444px;
+  height: 240px;
+  padding: 46.222px 0 0 65.778px;
+  background: none;
+  border: 0;
+  text-align: left;
+  color: inherit;
+}
+
+.badge {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 58.667px;
+  height: 58.667px;
+  border-radius: 999px;
+  background: #3a3a3a;
+  color: #eeeeec;
+  font-size: 21.333px;
+}
+
+.axisText {
+  width: 711.111px;
+}
+
+.axisText p {
+  margin: 0;
+}
+
+.axisCode {
+  font-size: 11.556px;
+  line-height: 16px;
+  color: #a6a8ad;
+}
+
+.axisName {
+  margin-top: 7px !important;
+  font-size: 21.333px;
+  line-height: 27px;
+  color: #eeeeec;
+}
+
+.axisBody {
+  margin-top: 7px !important;
+  font-size: 14.222px;
+  line-height: 20.622px;
+  color: #969799;
+}
+
+.axisTags {
+  margin-top: 7px !important;
+  font-size: 11.556px;
+  line-height: 16.756px;
+  color: #969799;
+  white-space: pre-line;
+}
+
+.axisCard {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  width: 1380px;
+  height: 480px;
+  padding: 24px;
+  border: 0;
+  border-radius: 36px;
+  background: #242527;
+  text-align: left;
+  color: inherit;
+  animation: axisPop 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes axisPop {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.axisCardCopy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.axisCardCode {
+  margin: 24px 0 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: #a6a8ad;
+}
+
+.axisCard h3 {
+  margin: 8px 0 0;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #eeeeec;
+}
+
+.axisCard p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969799;
+}
+
+.axisCard .axisTags {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.axisPhoto {
+  position: relative;
+  flex: none;
+  width: 840px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.axisPhoto img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featureWrap {
+  width: 1440px;
+  padding: 40px;
+}
+
+.feature {
+  position: relative;
+  width: 1360px;
+  height: 765px;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #1b1c1e;
+}
+
+.featureBg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1360px;
+  height: 765px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.featureBg img {
+  position: absolute;
+  height: 133.79%;
+  width: 133.88%;
+  left: -16.94%;
+  top: -17.93%;
+  max-width: none;
+}
+
+.featureShade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 69.935%);
+}
+
+.featureCopy {
+  position: absolute;
+  left: 43px;
+  top: 50px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.featureCopy h2 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -2.4px;
+  color: #f5f5f2;
+  white-space: nowrap;
+}
+
+.featureCopy p {
+  margin: 0;
+  width: 420px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #999;
+}
+
+.featureFrame {
+  position: absolute;
+  left: calc(77.78% + 12.22px);
+  top: calc(40% + 47.67px);
+  width: 240px;
+  height: 361px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  border-radius: 49px;
+}
+
+.featureFrame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.works {
+  position: relative;
+  width: 1440px;
+  height: 761px;
+  overflow: hidden;
+  background: #1b1c1e;
+}
+
+.worksCopy {
+  position: absolute;
+  left: 43px;
+  top: 69.45px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.worksCopy h2 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -2.4px;
+  color: #f5f5f2;
+  white-space: nowrap;
+}
+
+.worksCopy p {
+  margin: 0;
+  width: 420px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #999;
+}
+
+.worksTrack {
+  position: absolute;
+  inset: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.worksTrack::-webkit-scrollbar {
+  display: none;
+}
+
+.worksInner {
+  position: relative;
+  width: 2660px;
+  height: 761px;
+}
+
+.tile {
+  position: absolute;
+  width: 320px;
+  height: 460px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  border-radius: 28px;
+  background: #1c1c1c;
+  text-align: left;
+}
+
+.tile img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tile strong,
+.tile em {
+  position: absolute;
+  left: 37px;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.tile strong {
+  top: 384px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #f5f5f2;
+}
+
+.tile em {
+  top: 409px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #999;
+}
+
+.contact {
+  position: relative;
+  width: 1440px;
+  height: 577.44px;
+  overflow: hidden;
+  background: #092f28;
+}
+
+.contactBg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 791.228px;
+  pointer-events: none;
+}
+
+.contactBg img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contactGlass {
+  position: absolute;
+  left: 218.26px;
+  top: 97.79px;
+  width: 1003.68px;
+  height: 381.6px;
+  border-radius: 8.582px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14.5px);
+  pointer-events: none;
+}
+
+.contactCopy {
+  position: absolute;
+  left: 243.72px;
+  top: 123.58px;
+  width: 446.4px;
+}
+
+.contactCopy h2 {
+  margin: 0 0 14.538px;
+  width: 377.592px;
+  font-family: var(--font-display), sans-serif;
+  font-size: 30.894px;
+  font-weight: 400;
+  line-height: 41.192px;
+  color: #eeeeea;
+}
+
+.contactCopy p {
+  margin: 0;
+  font-size: 12.96px;
+  line-height: 20.16px;
+  color: rgba(244, 244, 242, 0.65);
+}
+
+.form {
+  position: absolute;
+  left: 733.06px;
+  top: 121.55px;
+  z-index: 2;
+  width: 462.96px;
+  height: 329.04px;
+  background: rgba(114, 130, 106, 0.12);
+}
+
+.form label,
+.form button {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 463.409px;
+  padding: 12.014px 8.64px 0 8.582px;
+  border: 0.858px solid #dedbd6;
+  background: transparent;
+  text-align: left;
+}
+
+.form label {
+  overflow: hidden;
+  cursor: text;
+}
+
+.form label:nth-of-type(1) {
+  top: 0;
+  height: 42.908px;
+}
+
+.form label:nth-of-type(2) {
+  top: 42.91px;
+  height: 42.908px;
+}
+
+.form label:nth-of-type(3) {
+  top: 86.09px;
+  height: 85.816px;
+}
+
+.form button {
+  top: 285.53px;
+  height: 42.908px;
+  font-size: 11.156px;
+  line-height: 17.163px;
+  color: #ddc;
+}
+
+.form span {
+  display: block;
+  font-size: 11.156px;
+  line-height: 15.447px;
+  color: #eeeeea;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  height: 14px;
+  margin: 1px 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  resize: none;
+  color: #eeeeea;
+  caret-color: #eeeeea;
+  cursor: text;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.form textarea {
+  height: 52px;
+}
+
+.form .done {
+  position: absolute;
+  left: 8px;
+  bottom: 52px;
+  margin: 0;
+  font-size: 11px;
+  color: #eeeeea;
+}
+
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 451px;
+  overflow: hidden;
+  background: #000;
+}
+
+.footerLogo {
+  position: absolute;
+  left: 52px;
+  top: 29.07px;
+}
+
+.footerLine1,
+.footerLine2 {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 451px;
+  background: #dedbd6;
+}
+
+.footerLine1 {
+  left: 212.88px;
+}
+
+.footerLine2 {
+  left: 681.88px;
+}
+
+.footerNav {
+  position: absolute;
+  left: 254.19px;
+  top: 29.18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5.149px;
+  width: 377.592px;
+  font-size: 9.783px;
+  line-height: 15.447px;
+}
+
+.footerNav .head {
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+
+.footerNav a,
+.footerNav span {
+  color: #ebebe8;
+}
+
+.footerLegal {
+  position: absolute;
+  left: 253.88px;
+  top: 409.11px;
+  margin: 0;
+  width: 395px;
+  font-size: 9.783px;
+  line-height: 15.447px;
+  color: #ebebe8;
+}
+
+.footerWord {
+  position: absolute;
+  left: 709px;
+  top: 19.11px;
+  width: 696px;
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: 66.937px;
+  font-weight: 300;
+  line-height: 72.086px;
+  text-transform: uppercase;
+  color: #ebebe8;
+}
+
+@media (max-width: 767px) {
+  .page,
+  .hero,
+  .research,
+  .featureWrap,
+  .works,
+  .contact,
+  .footer {
+    width: 100%;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .nav,
+  .heroVisual,
+  .heroFloor,
+  .title,
+  .eyebrow,
+  .about {
+    position: relative;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    width: auto;
+    height: auto;
+  }
+
+  .nav {
+    display: flex;
+    width: calc(100% - 32px);
+    margin: 16px;
+  }
+
+  .navLeft {
+    display: none;
+  }
+
+  .heroVisual {
+    height: 70svh;
+  }
+
+  .heroFloor {
+    display: none;
+  }
+
+  .eyebrow {
+    display: block;
+    margin: 24px 20px 0;
+    font-size: 28px;
+    white-space: normal;
+  }
+
+  .title {
+    display: block;
+    margin: 0 20px;
+    font-size: 56px;
+    line-height: 1;
+    white-space: normal;
+  }
+
+  .about {
+    padding: 32px 20px 48px;
+  }
+
+  .aboutLead,
+  .aboutBody {
+    width: auto;
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .aboutRow {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+
+  .aboutLabel {
+    text-align: left;
+  }
+
+  .researchIntro,
+  .axis,
+  .axisCard,
+  .researchRule,
+  .researchRuleBottom {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .researchIntro {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .researchIntro h2,
+  .researchIntro p,
+  .axisText {
+    width: auto;
+    margin: 0;
+  }
+
+  .axis {
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+    padding-bottom: 24px;
+  }
+
+  .axisCard {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .axisPhoto {
+    width: 100%;
+    height: 220px;
+  }
+
+  .featureWrap {
+    padding: 16px;
+  }
+
+  .feature {
+    width: 100%;
+    height: 560px;
+  }
+
+  .featureCopy h2,
+  .worksCopy h2 {
+    white-space: normal;
+    font-size: 36px;
+  }
+
+  .featureFrame {
+    width: 140px;
+    height: 210px;
+    left: auto;
+    right: 20px;
+    top: auto;
+    bottom: 20px;
+  }
+
+  .works {
+    height: auto;
+    min-height: 640px;
+  }
+
+  .worksCopy {
+    position: relative;
+    left: auto;
+    top: auto;
+    padding: 40px 20px 0;
+  }
+
+  .worksInner {
+    width: max-content;
+    height: 520px;
+    padding: 20px;
+  }
+
+  .tile {
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    display: inline-block;
+    margin-right: 16px;
+  }
+
+  .contact,
+  .contactBg,
+  .contactGlass,
+  .form {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact {
+    min-height: 640px;
+  }
+
+  .contactGlass,
+  .contactCopy,
+  .form {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    margin: 24px 16px;
+    height: auto;
+  }
+
+  .form label,
+  .form button {
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: auto;
+    min-height: 42px;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footerLine1,
+  .footerLine2 {
+    display: none;
+  }
+
+  .footerLogo,
+  .footerNav,
+  .footerLegal,
+  .footerWord {
+    position: relative;
+    left: auto;
+    top: auto;
+    display: block;
+    width: auto;
+    padding: 24px;
+  }
+
+  .footerWord {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+}

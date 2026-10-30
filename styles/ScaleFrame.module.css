@@ -1,0 +1,21 @@
+.shell {
+  position: relative;
+  width: 100%;
+}
+
+.snaps {
+  pointer-events: none;
+}
+
+.snap {
+  scroll-snap-align: start;
+}
+
+.canvas {
+  width: 100%;
+  background: var(--bg);
+}
+
+:global(html.is-scale) .canvas {
+  width: 1440px;
+}

@@ -1,0 +1,75 @@
+.logo {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 41px;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.logo:hover {
+  transform: scale(1.06);
+}
+
+.footer {
+  width: 105px;
+  height: 43px;
+}
+
+.cr,
+.a,
+.f,
+.t,
+.lab {
+  position: absolute;
+  display: block;
+}
+
+.cr {
+  left: 0;
+  top: 0;
+}
+
+.a {
+  left: 39.38px;
+  top: 0;
+}
+
+.f {
+  left: 59.1px;
+  top: 0;
+}
+
+.t {
+  left: 78.82px;
+  top: 0;
+}
+
+.lab {
+  left: 39.38px;
+  top: 19.72px;
+}
+
+.footer .cr {
+  left: 0;
+  top: 0;
+}
+
+.footer .a {
+  left: 41.26px;
+  top: 0;
+}
+
+.footer .f {
+  left: 61.91px;
+  top: 0;
+}
+
+.footer .t {
+  left: 82.57px;
+  top: 0;
+}
+
+.footer .lab {
+  left: 41.26px;
+  top: 20.66px;
+}
